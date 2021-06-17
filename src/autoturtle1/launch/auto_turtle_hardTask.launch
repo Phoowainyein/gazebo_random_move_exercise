@@ -1,0 +1,11 @@
+<launch>
+    <!-- <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node">
+    </node>
+    <node pkg="autoturtle1" type="randomwalk_node_hard.py" name="random_walker">
+    </node> -->
+
+<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node">
+    </node>
+    <node pkg="turtle_test" type="odom_pub.py" name="random_walker">
+    </node>
+</launch>
