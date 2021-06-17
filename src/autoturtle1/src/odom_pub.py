@@ -21,6 +21,3 @@ def publish_velocity_commands():
     vel_pub.publish(msg)
     rate.sleep()
  
-if __name__ == '__main__':
-  publish_velocity_commands()      
-    
