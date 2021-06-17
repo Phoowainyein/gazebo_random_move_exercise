@@ -1,4 +1,6 @@
 /autoturtle1
-/.vscode
-/build
-/devel
+.vscode
+build
+devel
+.catkin_workspace
+CMakeLists.txt
